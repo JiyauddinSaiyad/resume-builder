@@ -1,0 +1,84 @@
+.menu-container {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0;
+    right: 0;
+}
+
+.menu-toggle {
+    background: #4CAF50;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    width: 6rem;
+}
+
+.menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    margin-right: 1.1rem;
+    padding: 5px;
+    width: 5.5rem;
+    margin-top: 1rem;
+}
+
+.menu.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.menu a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    display: block;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.menu a:hover {
+    background: #4CAF50;
+    color: #fff;
+}
+
+.menu a svg {
+    color: #333;
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.menu a:hover svg {
+    color: #fff;
+    transition: filter 0.2s ease-in-out;
+}
+
+img{
+    width: 1.6rem;
+}
+
+.menu a:hover img{
+    filter: brightness(0) invert(1);
+}

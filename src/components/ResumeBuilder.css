@@ -1,0 +1,460 @@
+/* .App {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+form {
+    margin-top: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.resume {
+    margin-top: 2rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+#prImg {
+
+    border: 1px solid red;
+    width: 100px;
+
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+} */
+
+
+/* New */
+
+App {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: 5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 90%;
+    padding: 1rem;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 1.2rem;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 0.5rem;
+}
+
+.resume {
+    margin: auto;
+    margin-top: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 2rem;
+    width: 90%;
+}
+
+.resume {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.resume h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.resume img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.resume p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.logoDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logojrs {
+    width: 120px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.resume table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.resume table th {
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    background-color: #ccc;
+}
+
+.resume table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+
+/* End */
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #3e8e41;
+    transform: translateY(-2px);
+}
+
+#prImg {
+    border: 3px solid black;
+    width: 100px;
+    margin: auto;
+    border-radius: 10%;
+    background-color: gray;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.form-group div {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+label[for="profilePic"] {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.custom-file-upload:hover {
+    background-color: #3e8e41;
+    transform: translateY(-2px);
+}
+
+.custom-file-upload:active {
+    background-color: #3e8e41;
+    transform: translateY(-2px);
+}
+
+.custom-file-upload:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.ResumeBuilder {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 2rem;
+    /* border: 1px solid gray; */
+    margin-top: 2px;
+    padding: 2px;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+}
+
+.ResumeBuilder button {
+    margin: 0 auto;
+    margin-top: 5px;
+    display: block;
+}
+
+select {
+    display: block;
+    width: 90%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: auto;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='4' viewBox='0 0 8 4'%3E%3Cpath fill='%23666666' d='M4 4L0 0h8z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+    background-size: 8px 4px;
+    cursor: pointer;
+    border-radius: 0%;
+    margin-bottom: 1rem;
+}
+
+select:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.logojrs {
+    border: 2px solid #ccc;
+    margin-right: 10px;
+    width: 100px;
+    align-items: right;
+    /* background-color: #4CAF50; */
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.logoDiv {
+    margin: auto;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainLogoHeadDiv {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 1rem;
+    border: none;
+    border-bottom: 2px solid #4CAF50;
+    font-size: 1.2rem;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 0.5rem;
+    height: 100px;
+}
+
+.mainlogoHead {
+    width: 50px;
+    margin-right: 1rem;
+}
+
+#about {
+    height: 200px;
+    width: 90%;
+    margin: auto;
+}
+
+.dwnBtn {
+    /* position: fixed; */
+    bottom: 4.1rem;
+    right: 1rem;
+    font-size: 2rem;
+    width: 10rem;
+}
+
+.dwnBtn .dwnIco {
+    animation: download 1.2s ease-in-out infinite;
+}
+
+.dwnBtn:hover::before {
+    content: "Download";
+    display: block;
+    position: absolute;
+    right: 7rem;
+    top: 2;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+@keyframes download {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .ResumeBuilder {
+        width: 100%;
+    }
+}
