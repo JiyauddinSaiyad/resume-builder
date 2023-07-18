@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "breed": "Rottweiler",
+    "image": "https://pixabay.com/images/download/rottweiler-3199086.jpg"
+  },
+  {
+    "id": 2,
+    "breed": "Labrador Retriever",
+    "image": "https://pixabay.com/images/download/labrador-retriever-1768584.jpg"
+  },
+  {
+    "id": 3,
+    "breed": "German Shepherd",
+    "image": "https://pixabay.com/images/download/german-shepherd-2810778.jpg"
+  },
+  {
+    "id": 4,
+    "breed": "Golden Retriever",
+    "image": "https://pixabay.com/images/download/golden-retriever-2380020.jpg"
+  },
+  {
+    "id": 5,
+    "breed": "Bulldog",
+    "image": "https://pixabay.com/images/download/bulldog-1200128.jpg"
+  },
+  {
+    "id": 6,
+    "breed": "Poodle",
+    "image": "https://pixabay.com/images/download/poodle-1324713.jpg"
+  },
+  {
+    "id": 7,
+    "breed": "Beagle",
+    "image": "https://pixabay.com/images/download/beagle-2203140.jpg"
+  },
+  {
+    "id": 8,
+    "breed": "Boxer",
+    "image": "https://pixabay.com/images/download/boxer-1652828.jpg"
+  },
+  {
+    "id": 9,
+    "breed": "Dachshund",
+    "image": "https://pixabay.com/images/download/dachshund-1049233.jpg"
+  },
+  {
+    "id": 10,
+    "breed": "Siberian Husky",
+    "image": "https://pixabay.com/images/download/siberian-husky-5557292.jpg"
+  }
+]
