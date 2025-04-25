@@ -1,3 +1,4 @@
+// for our app we need to update readme docs as it's not correct
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
