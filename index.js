@@ -1,6 +1,6 @@
 # Resume Builder
 
-A modern web application for creating, customizing, and exporting professional resumes with ease.
+A modern AI-powered web application for creating, customizing, and exporting professional resumes with ease.
 
 ---
 
